@@ -84,7 +84,7 @@ section {
 }
 
 figure {
-    width: 150px;
+    width: 32%;
     height: 150px;
     margin-top: 12px;
     display: inline-block;
@@ -110,6 +110,7 @@ figcaption {
 
 .article-one > p {
     margin-top: 12px;
+    text-align: justify;
 }
 
 .square {
