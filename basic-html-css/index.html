@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">  DONT NEED ANYMORE -->
+    <meta name="description" content="A basic HTML5 page using all HTML5 tags with best practices.">
+    <meta name="keywords" content="HTML5, Best Practices, Web Development">
+    <meta name="author" content="Vinicius Marson">
+
+    <title>Assignment 1</title>
+
+    <!-- Links to external resources -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body>
+    <!-- Semantic header section -->
+    <header>
+        <nav aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My HTML5 Page</h1>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <section id="home" aria-labelledby="home-heading">
+            <h2 id="home-heading">Home</h2>
+            <article>
+                <header>
+                    <h3>Introduction</h3>
+                </header>
+                <p>This is an example of an HTML5 page that follows best practices. The page is fully responsive,
+                    accessible, and uses all the new HTML5 elements.</p>
+                <figure>
+                    <img src="assets/example.jpg" alt="An example image" width="300" height="200">
+                    <figcaption>Fig.1 - Example Image</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About</h2>
+            <article>
+                <header>
+                    <h3>My Story</h3>
+                </header>
+                <p>I am a Software Egineer who builds accessible, modern web pages using the latest technologies.</p>
+                <p>Currently <time datetime="2024-10-07 16:00">started</time> a Diploma of Web Development from
+                    <time>16:00</time> to <time>21:00</time> every weekday.
+                </p>
+            </article>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+            </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Aside section for additional info or related links -->
+    <aside>
+        <h2>Related Articles</h2>
+        <ul>
+            <li><a href="https://tamwood.com/" target="_blank">Tamwood</a></li>
+            <li><a href="https://www.ilac.com/" target="_blank">ILAC</a></li>
+        </ul>
+    </aside>
+
+    <!-- Secondary navigation at the bottom with aria-label -->
+    <nav aria-label="Secondary Navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Semantic footer section -->
+    <footer>
+        <p>&copy; 2024 Vinicius Marson - Tamwood Student. All rights reserved.</p>
+    </footer>
+
+    <!-- Script includes -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
