@@ -4,7 +4,7 @@ This repository has all the exercices requested by the teacher on the Web Develo
 
 ## Folder struture: 
 
-### basic-html - Assigmnet 3
+### basic-html - Assignment 3
 
-### basic-html-css - Assigmnet 4
+### basic-html-css - Assignment 4
 
