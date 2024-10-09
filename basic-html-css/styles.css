@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  
+body {
+    padding: 24px;
+    font-family: Arial, sans-serif;
+}
+
+header > h1 { 
+    padding: 24px;
+    font: caption;
+    text-align: center;
+    font-size: xx-large;
+    background-color: darkgray;
+}
+
+header > nav { 
+    padding: 12px;
+    background-color: gainsboro;
+}
+
+header > nav > ul {
+    list-style-position: inside; /* Makes the bullets part of the text flow */
+}
+
+header > nav > ul > li {
+    text-align: center; 
+    color:rgb(28, 83, 184);
+}
+
+a { 
+    text-decoration: none; /* Removing the underline */
+}
+
+a:link {
+    color:rgb(28, 83, 184);
+}
+
+a:visited {
+    color:rgb(28, 83, 184);
+}
+
+main {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #4f4f4f;
+}
+
+#left-section {
+    width: 70%;
+}
+
+#right-section {
+    width: 28%;
+    margin-left: 1%;
+}
+
+section {
+    padding: 24px;
+    height: 50vh;
+    vertical-align: top;
+    background-color: gray;
+    display: inline-block;
+}
+
+.images {
+    position: relative;
+    width: 100%;
+    text-align: center; 
+}
+
+.fist-image {
+    position: absolute;
+    left: 0px;
+}
+
+.last-image {
+    position: absolute;
+    right: 0px;
+}
+
+figure {
+    width: 150px;
+    height: 150px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.article-one {
+    height: 200px;
+}
+
+.article-one > header {
+    margin-top: 12px;
+}
+
+.article-one > p {
+    margin-top: 12px;
+}
+
+.square {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid;
+    border-color:darkkhaki;
+    background-color:gainsboro;
+}
+
+#projects-heading {
+    bottom: 0;
+}
+
+#dates {
+    margin-top: 12px;
+    text-align: start;
+    padding-left: 24px;
+    height: 300px;
+}
+
+/* Foooter Stylesheet */
+footer {
+    position: relative;
+    height: 64px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+footer > p { 
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: small
+}
