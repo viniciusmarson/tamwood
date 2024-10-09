@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove the default margin for all elements */
+    padding: 0;  /* Remove the default padding for all elements */
+    box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
 } 
   
 body {
@@ -23,7 +23,7 @@ header > nav {
 }
 
 header > nav > ul {
-    list-style-position: inside; /* Makes the bullets part of the text flow */
+    list-style-position: inside; /* Makes the bullets part of the text flow, without this the bullets will not be centralized with the text */
 }
 
 header > nav > ul > li {
@@ -44,9 +44,9 @@ a:visited {
 }
 
 main {
+    padding: 24px;
     margin-top: 24px;
     margin-bottom: 24px;
-    padding: 24px;
     background-color: #4f4f4f;
 }
 
@@ -62,14 +62,37 @@ main {
 section {
     padding: 24px;
     height: 50vh;
-    vertical-align: top;
-    background-color: gray;
     display: inline-block;
+    vertical-align: top; /* Without this, the two sections will not be aligned one in the side of the other corretly */
+    background-color: gray;
 }
 
-.images {
-    position: relative;
+.square {
+    padding: 12px;
+    min-height: 60px;
+    text-align: center;
+    border: 2px solid;
+    border-color:darkkhaki;
+    background-color:gainsboro;
+}
+
+.article-one {
+    height: 200px;
+}
+
+.article-one > header {
+    margin-top: 12px;
+}
+
+.article-one > p {
+    margin-top: 12px;
+    text-align: justify;
+}
+
+.container-images {
     width: 100%;
+    margin-top: 12px;
+    position: relative;
     text-align: center; 
 }
 
@@ -86,7 +109,6 @@ section {
 figure {
     width: 32%;
     height: 150px;
-    margin-top: 12px;
     display: inline-block;
     position: relative;
 }
@@ -100,37 +122,11 @@ figcaption {
     font-weight: bold;
 }
 
-.article-one {
-    height: 200px;
-}
-
-.article-one > header {
-    margin-top: 12px;
-}
-
-.article-one > p {
-    margin-top: 12px;
-    text-align: justify;
-}
-
-.square {
-    padding: 12px;
-    text-align: center;
-    border: 2px solid;
-    border-color:darkkhaki;
-    background-color:gainsboro;
-}
-
-#projects-heading {
-    display: inline;
-    vertical-align: bottom;
-}
-
 #dates {
     margin-top: 12px;
     text-align: start;
     padding-left: 24px;
-    height: 300px;
+    height: 290px;
 }
 
 #dates > ul > li {
