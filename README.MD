@@ -1,6 +1,6 @@
-# Tamwood Exercises
+# Tamwood Exercises 1
 
-This repository has all the exercices requested by the teacher on the Web Developer course at Tamwood School. 
+This repository has all the exercices requested by the teacher on the first week of the Web Developer course at Tamwood School. 
 
 ## Folder struture: 
 
@@ -11,7 +11,6 @@ This repository has all the exercices requested by the teacher on the Web Develo
 ### basic-html-css
 
 [Assignment 4](/basic-html-css/)
-
 
 ## References:
 

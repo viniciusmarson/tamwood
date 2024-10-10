@@ -5,6 +5,7 @@
 } 
   
 body {
+    height: 100vh;
     padding: 24px;
     font-family: Arial, sans-serif;
 }
@@ -44,6 +45,7 @@ a:visited {
 }
 
 main {
+    height: 62%;
     padding: 24px;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -60,8 +62,8 @@ main {
 }
 
 section {
+    height: 100%;
     padding: 24px;
-    height: 50vh;
     display: inline-block;
     vertical-align: top; /* Without this, the two sections will not be aligned one in the side of the other corretly */
     background-color: gray;
@@ -69,7 +71,6 @@ section {
 
 .square {
     padding: 12px;
-    min-height: 60px;
     text-align: center;
     border: 2px solid;
     border-color:darkkhaki;
@@ -91,6 +92,7 @@ section {
 
 .container-images {
     width: 100%;
+    height: 100%;
     margin-top: 12px;
     position: relative;
     text-align: center; 
@@ -108,7 +110,7 @@ section {
 
 figure {
     width: 32%;
-    height: 150px;
+    height: calc(100% - 200px - 12px); /* Removes the height of article-one and the padding */
     display: inline-block;
     position: relative;
 }
@@ -126,7 +128,7 @@ figcaption {
     margin-top: 12px;
     text-align: start;
     padding-left: 24px;
-    height: 290px;
+    height: calc(100% - 55.5px - 12px);  /* Removes the height of projects and the padding */
 }
 
 #dates > ul > li {
