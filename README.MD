@@ -1,6 +1,6 @@
-# Tamwood Exercises 1
+# Tamwood Exercises
 
-This repository has all the exercices requested by the teacher on the first week of the Web Developer course at Tamwood School. 
+This repository has all the exercices requested by the teacher on the Web Developer course at Tamwood School. 
 
 ## Folder struture: 
 
