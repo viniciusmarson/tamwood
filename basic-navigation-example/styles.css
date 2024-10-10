@@ -55,3 +55,21 @@ main {
     height: calc(100% - 80px - 150px); /* Remove the header and the footer from the total page*/
     white-space: nowrap; /* Prevents wrapping of inline-block elements */
 }
+
+footer { 
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 36px;
+}
+
+.divider {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: white;
+}
