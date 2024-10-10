@@ -12,6 +12,10 @@ This repository has all the exercices requested by the teacher on the Web Develo
 
 [Assignment - Day 6 Assignment #1 Part 4/4 - Basic CSS Styling](/basic-html-css/)
 
+### basic-navigation-example
+
+[Assignment - Day 7 Assignment #2 - Navigation Elements](/basic-navigation-example/)
+
 ## References:
 
 - https://www.awwwards.com/ --> Amazing websites to use as example
