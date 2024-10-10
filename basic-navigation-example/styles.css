@@ -50,3 +50,8 @@ header > nav {
     display: inline;
     margin-right: 10px; /* Add space between items */
 }
+
+main {
+    height: calc(100% - 80px - 150px); /* Remove the header and the footer from the total page*/
+    white-space: nowrap; /* Prevents wrapping of inline-block elements */
+}
