@@ -56,6 +56,37 @@ main {
     white-space: nowrap; /* Prevents wrapping of inline-block elements */
 }
 
+section, aside {
+    display: inline-block; /* Set both elements side by side */
+    vertical-align: top;   /* Align them to the top */
+}
+
+section {
+    width: 70%;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#services-title {
+    font-size: xx-large;
+}
+
+aside {
+    width: 30%;
+    height: 100%;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#categories-title {
+    margin-top: 12px;
+    font-size: x-large;
+}
+
+aside > nav {
+    margin-top: 12px;
+}
+
 footer { 
     height: 150px;
     width: 100%;
