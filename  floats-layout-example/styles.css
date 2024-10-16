@@ -66,6 +66,10 @@ main {
     word-wrap: break-word;
 }
 
+h1 { 
+    padding-bottom: 12px;
+}
+
 #image-left {
     float: left;
     margin-right: 24px;
