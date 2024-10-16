@@ -66,13 +66,24 @@ main {
     word-wrap: break-word;
 }
 
-#image {
+#image-left {
     float: left;
     margin-right: 24px;
 }
 
-.text {
+.text-right {
     clear: right;
+    text-align: justify;
+}
+
+#image-right {
+    float: right;
+    margin-left: 24px;
+}
+
+.text-left {
+    clear: left;
+    text-align: justify;
 }
 
 footer { 
