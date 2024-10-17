@@ -18,7 +18,7 @@
 
 <body>
     <!-- Main content area -->
-    <main>
+    <main id="main">
         <section id="table1">
             <h2 id="table1Label">Semester II Schedule</h2>
             <table aria-labelledby="table1Label" border="1" cellspacing="0" cellpadding="10">
@@ -114,7 +114,60 @@
         </section>
 
         <section id="table3">
+            <table aria-labelledby="table2Label" border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th colspan="3">Size Guide</th>
+                    </tr>
+                    <tr>
+                        <th id="size">Bed Sizes</th>
+                        <th id="weight">Pet Weight</th>
+                        <th id="example">Examples of Breeds</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                    <tr>
+                        <th id="small" scope="row">25"x19"x3.5"</th>
+                        <td headers="small weight">up to 20 lbs</td>
+                        <td headers="small example">
+                            <img src="./assets/small1.png" height="150px" />
+                            <img src="./assets/small2.png" height="150px" />
+                            <img src="./assets/small3.jpg" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="medium" scope="row">31"x22"x3.5"</th>
+                        <td headers="medium weight">up to 40 lbs</td>
+                        <td headers="medium example">
+                            <img src="./assets/medium1.png" height="150px" />
+                            <img src="./assets/medium2.png" height="150px" />
+                            <img src="./assets/medium3.avif" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="large" scope="row">37"x26"x3.5"</th>
+                        <td headers="large weight">up to 65 lbs</td>
+                        <td headers="large example">
+                            <img src="./assets/large.png" height="150px" />
+                            <img src="./assets/large1.jpg" height="150px" />
+                            <img src="./assets/large2.png" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="xlarge" scope="row">43"x30"x3.5"</th>
+                        <td headers="xlarge weight">up to 90 lbs</td>
+                        <td headers="xlarge example">
+                            <img src="./assets/xlarge.png" width="150px" />
+                            <img src="./assets/xlarge.jpeg" width="150px" />
+                            <img src="./assets/xlarge3.jpeg" width="150px" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 </body>
