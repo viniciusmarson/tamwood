@@ -1,0 +1,24 @@
+* {
+    margin: 0; /* Remove the default margin for all elements */
+    padding: 0;  /* Remove the default padding for all elements */
+    box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+} 
+
+section {
+    padding: 24px;
+    width: fit-content;
+    text-align: center;
+}
+
+table {
+    border: solid;
+}
+
+td, th {
+    border: solid;
+    padding: 12px;
+}
+
+caption {
+    caption-side: bottom;
+}

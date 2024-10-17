@@ -20,7 +20,48 @@
     <!-- Main content area -->
     <main>
         <section id="table1">
+            <h2 id="table1Label">Semester II Schedule</h2>
+            <table aria-labelledby="table1Label" border="1" cellspacing="0" cellpadding="10">
+                <caption>Fig: Semester 2 Course Schedule</caption>
+                <thead>
+                    <tr>
+                        <th id="course">Course</th>
+                        <th id="time" colspan="2">Time</th>
+                        <th id="room">Room</th>
+                        <th id="day">Day</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                    <tr>
+                        <th rowspan="2" id="english" scope="row">English II</th>
+                        <td rowspan="2" headers="english time">9:00</td>
+                        <td rowspan="2" headers="english time">11:00</td>
+                        <td rowspan="2" headers="english room">L2201</td>
+                        <td headers="english day">Monday</td>
+                    </tr>
+
+                    <tr>
+                        <td headers="english day">Wednesday</td>
+                    </tr>
+
+                    <tr>
+                        <th id="geography" scope="row">Geography</th>
+                        <td headers="geography time">11:00</td>
+                        <td headers="geography time">12:25</td>
+                        <td headers="geography room">G107</td>
+                        <td headers="geography day">Tuesday</td>
+                    </tr>
+
+                    <tr>
+                        <th id="biology" scope="row">Geography</th>
+                        <td headers="biology time">09:00</td>
+                        <td headers="biology time">11:00</td>
+                        <td headers="biology room">B302</td>
+                        <td headers="biology day">Friday</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section id="table2">
@@ -30,7 +71,7 @@
         <section id="table3">
 
         </section>
-    </main>  
+    </main>
 </body>
 
 </html>
