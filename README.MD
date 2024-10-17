@@ -16,9 +16,13 @@ This repository has all the exercices requested by the teacher on the Web Develo
 
 [Assignment - Day 7 Assignment #2 - Navigation Elements](/basic-navigation-example/)
 
-###  css-positioning-examples
+### css-positioning-examples
 
 [Assignment - Day 8 Assignment #3 - Back-to-Top Button and Sticky Element](/%20css-positioning-examples/)
+
+### floats-layout-example
+
+[Assignment - Day 8 Assignment #4 - CSS Float Layout Pages](./floats-layout-example/)
 
 ## References:
 
