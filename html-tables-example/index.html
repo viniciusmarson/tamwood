@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">  DONT NEED ANYMORE -->
+    <meta name="description" content="Assignment 5 - HTML Tabless">
+    <meta name="keywords" content="HTML5, Tables">
+    <meta name="author" content="Vinicius Marson">
+
+    <title>Assignment 5 - HTML Tabless</title>
+
+    <!-- Links to external resources -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+    <!-- Main content area -->
+    <main id="main">
+        <section id="table1">
+            <h2 id="table1Label">Semester II Schedule</h2>
+            <table aria-labelledby="table1Label" border="1" cellspacing="0" cellpadding="10">
+                <caption>Fig: Semester 2 Course Schedule</caption>
+                <thead>
+                    <tr>
+                        <th id="course">Course</th>
+                        <th id="time" colspan="2">Time</th>
+                        <th id="room">Room</th>
+                        <th id="day">Day</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th rowspan="2" id="english" scope="row">English II</th>
+                        <td headers="english time">9:00</td>
+                        <td headers="english time">11:00</td>
+                        <td headers="english room">L2201</td>
+                        <td headers="english day">Monday</td>
+                    </tr>
+
+                    <tr>
+                        <td headers="english time">9:00</td>
+                        <td headers="english time">11:00</td>
+                        <td headers="english room">L2201</td>
+                        <td headers="english day">Wednesday</td>
+                    </tr>
+
+                    <tr>
+                        <th id="geography" scope="row">Geography</th>
+                        <td headers="geography time">11:00</td>
+                        <td headers="geography time">12:25</td>
+                        <td headers="geography room">G107</td>
+                        <td headers="geography day">Tuesday</td>
+                    </tr>
+
+                    <tr>
+                        <th id="biology" scope="row">Geography</th>
+                        <td headers="biology time">09:00</td>
+                        <td headers="biology time">11:00</td>
+                        <td headers="biology room">B302</td>
+                        <td headers="biology day">Friday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="table2">
+            <h2 id="table2Label">Product Comparison Chart</h2>
+            <table aria-labelledby="table2Label" border="1" cellspacing="0" cellpadding="10">
+                <caption>Fig: Comparison of the features between the products</caption>
+                <thead>
+                    <tr>
+                        <th style="border: none; width: 150px;background-color: white;"></th>
+                        <th id="productA">Product A</th>
+                        <th id="productB">Product B</th>
+                        <th id="productC">Product C</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th id="durability" scope="row">Durability</th>
+                        <td headers="durability productA">10/10</td>
+                        <td headers="durability productB">5/10</td>
+                        <td headers="durability productC">7/10</td>
+                    </tr>
+
+                    <tr>
+                        <th id="design" scope="row">Design</th>
+                        <td headers="design productA">3/10</td>
+                        <td headers="design productB">8/10</td>
+                        <td headers="design productC">7/10</td>
+                    </tr>
+
+                    <tr>
+                        <th id="usability" scope="row">Usability</th>
+                        <td headers="usability productA">7/10</td>
+                        <td headers="usability productB">10/10</td>
+                        <td headers="usability productC">5/10</td>
+                    </tr>
+
+                    <tr>
+                        <th id="price" scope="row">Price</th>
+                        <td headers="price productA">9/10</td>
+                        <td headers="price productB">7/10</td>
+                        <td headers="price productC">3 /10</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section id="table3">
+            <table aria-labelledby="table2Label" border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th colspan="3">Size Guide</th>
+                    </tr>
+                    <tr>
+                        <th id="size">Bed Sizes</th>
+                        <th id="weight">Pet Weight</th>
+                        <th id="example">Examples of Breeds</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th id="small" scope="row">25"x19"x3.5"</th>
+                        <td headers="small weight">up to 20 lbs</td>
+                        <td headers="small example">
+                            <img src="./assets/small1.png" height="150px" />
+                            <img src="./assets/small2.png" height="150px" />
+                            <img src="./assets/small3.jpg" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="medium" scope="row">31"x22"x3.5"</th>
+                        <td headers="medium weight">up to 40 lbs</td>
+                        <td headers="medium example">
+                            <img src="./assets/medium1.png" height="150px" />
+                            <img src="./assets/medium2.png" height="150px" />
+                            <img src="./assets/medium3.avif" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="large" scope="row">37"x26"x3.5"</th>
+                        <td headers="large weight">up to 65 lbs</td>
+                        <td headers="large example">
+                            <img src="./assets/large.png" height="150px" />
+                            <img src="./assets/large1.jpg" height="150px" />
+                            <img src="./assets/large2.png" height="150px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th id="xlarge" scope="row">43"x30"x3.5"</th>
+                        <td headers="xlarge weight">up to 90 lbs</td>
+                        <td headers="xlarge example">
+                            <img src="./assets/xlarge.png" width="150px" />
+                            <img src="./assets/xlarge.jpeg" width="150px" />
+                            <img src="./assets/xlarge3.jpeg" width="150px" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -22,7 +22,11 @@ This repository has all the exercices requested by the teacher on the Web Develo
 
 ### floats-layout-example
 
-[Assignment - Day 8 Assignment #4 - CSS Float Layout Pages](./floats-layout-example/)
+[Assignment - Day 9 Assignment #4 - CSS Float Layout Pages](./floats-layout-example/)
+
+### html-tables-example
+
+[Assignment - Day 10 Assignment #5 - HTML Tables](./html-tables-example/)
 
 ## References:
 
