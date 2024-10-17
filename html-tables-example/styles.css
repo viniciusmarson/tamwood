@@ -10,15 +10,21 @@ section {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 12px;
+}
 table {
-    border: solid;
+    border: none;
 }
 
 td, th {
-    border: solid;
     padding: 12px;
 }
 
 caption {
     caption-side: bottom;
+}
+
+.bigger > yh {
+    width: 150px;
 }
