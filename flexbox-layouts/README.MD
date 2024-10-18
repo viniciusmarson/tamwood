@@ -21,4 +21,4 @@ The itens above just change the header and the footer, so after made the changes
 
 6. Flexbox Gallery - Inside [contact](./contact.html)
 
-![Flexbox Gallery](./assets/flex-box-gallery.png.png)
+![Flexbox Gallery](./assets/flex-box-gallery.png)
