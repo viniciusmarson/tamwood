@@ -94,20 +94,52 @@ section {
     gap: 24px;
 }
 
-article {
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
     width: 100%;
 }
 
-.square {
+.square-big {
     height: 250px;
+    background-color: aqua;
 }
 
 .square-bigger {
     height: 100%;
+    background-color: aqua;
+}
+
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    background-color: green
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 64px;
+    gap: 24px;
+    width: 100%;
+    background-color: green;
+}
+
+.rectangle {
+    background-color: aqua;
+    height: 30px;
+    width: 100%;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
 }
 
 footer { 

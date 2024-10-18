@@ -15,6 +15,10 @@ The itens above just change the header and the footer, so after made the changes
 3. Floated Left + Flexbox - Inside [index](./index.html)
 4. Floated Right + Flexbox - Inside [about](./about.html)
 
-![alt text](./assets/image.png)
+![Flexbox](./assets/flexbox.png)
 
 5. Flexbox Layout - Inside [services](./services.html)
+
+6. Flexbox Gallery - Inside [contact](./contact.html)
+
+![Flexbox Gallery](./assets/flex-box-gallery.png.png)
