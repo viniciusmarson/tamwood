@@ -28,6 +28,10 @@ This repository has all the exercices requested by the teacher on the Web Develo
 
 [Assignment - Day 10 Assignment #5 - HTML Tables](./html-tables-example/)
 
+### flexbox-layouts
+
+[Assignment - Day 11 Assignment #6 - CSS Flexbox](./flexbox-layouts/)
+
 ## References:
 
 - https://www.awwwards.com/ --> Amazing websites to use as example
