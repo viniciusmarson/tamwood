@@ -79,28 +79,35 @@ h1 {
     text-align: justify;
 }
 
-
-.floated-left{ 
-    float: left;
-    height: 30%;
-    width: 49.5%;
-    background-color: orange;
-    margin-bottom: 1%;
+section {
+    height: 100%;
 }
 
-.floated-right{ 
-    float: right;
-    height: 30%;
-    width: 49.5%;
-    background-color: orange;
-    margin-bottom: 1%;
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
 }
 
-.clears-both{ 
-    clear: both;
-    height: 67%;
+.row {
+    display: flex;
+    gap: 24px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
     width: 100%;
-    background-color: gainsboro;
+}
+
+.square {
+    height: 250px;
+}
+
+.square-bigger {
+    height: 100%;
 }
 
 footer { 
